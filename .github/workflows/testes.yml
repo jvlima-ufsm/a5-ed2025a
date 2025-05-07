@@ -21,7 +21,7 @@ jobs:
       run: g++ -Wall -g -c testes.cpp
     - name: Compila lista
       run: gcc -Wall -g -c lista.c
-      - name: Compila ABB
+    - name: Compila ABB
       run: gcc -Wall -g -c abb.c
     - name: Programa final
       run: g++ -Wall -g lista.o abb.o testes.o  catch_amalgamated.o
